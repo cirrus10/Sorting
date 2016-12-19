@@ -24,7 +24,7 @@ public class BubbleSortAlgo {
 	
 	public static void main(String args[])
 	{
-		int[] input =  {4, 2, 9, 6, 23,12,34, 0, 1};
+		int[] input =  {10, 56, 45, 33, 22, 11, 1, 0};
 		sort(input);
 	}
 }
