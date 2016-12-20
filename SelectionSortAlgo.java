@@ -25,7 +25,7 @@ public class SelectionSortAlgo {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      int input[] = {22,44,55,33,66,77,11};
+      int input[] = {22,44,88,33,66,77,11};
       sort(input);
 	}
 
