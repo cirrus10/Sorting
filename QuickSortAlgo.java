@@ -14,18 +14,18 @@ public class QuickSortAlgo {
 			{
 				if(array[i]<= pivot)
 				{
-					swap(pIndex,i);
+					swapElementsAt(pIndex,i);
 					pIndex = pIndex++;
 				}
 			}
-			swap(pIndex, h);
+			swapElementsAt(pIndex, h);
 					
 			sort(array, l, pIndex-1);
 			sort(array, pIndex+1, h);
 		}
 	}
 
-	public static void swap(int a, int b){
+	public static void swapElementsAt(int a, int b){
 		int temp = array[a];
 		array[a] = array[b];
 		array[b] = temp;
