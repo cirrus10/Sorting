@@ -3,12 +3,15 @@ public class BubbleSortAlgo {
 	public static void sort(int array[])
 	{
 		int length =  array.length;
+		// loop n times to arrange n elements of the array
 		for (int i = 0; i< length; i++)
 		{
 			for(int j = 0; j<length-1; j++)
 			{
+				//compare two adjacent elements
 				if(array[j]>array[j+1])
 				{
+					//swap if element on left is greater than element on right
 					int temp = array[j];
 					array[j] = array[j+1];
 					array[j+1] = temp;
